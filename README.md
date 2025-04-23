@@ -149,6 +149,8 @@ Developed by: Register Number*/
 
 ### Fig 3:Invoke the Cadence Environment
 
+![Screenshot 2025-04-21 155813](https://github.com/user-attachments/assets/465a059e-1528-4df6-8242-9be3b1f3a36e)
+
 	To Launch Simulation tool 
 
 •	linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
