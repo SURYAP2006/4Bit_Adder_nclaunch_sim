@@ -49,7 +49,9 @@ COUT=(A&B) | (CIN&(A^B))
 Note : File name should be with HDL Extension
 
 code
-full adder
+
+1.full adder
+
 module full_adder(A,B,CIN,S,COUT);
 
 input A,B,CIN;
@@ -64,7 +66,7 @@ endmodule
 
 
 
-full adder 4bit
+2.full adder 4bit
 
 module fulladd_4bit(A,B,C0,S,C4);
 
@@ -90,7 +92,7 @@ endmodule
 
 
 
-full adder 4bit test
+3.full adder 4bit test
 
 module test_4bit;
 
