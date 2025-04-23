@@ -15,7 +15,8 @@ To construct a 4-bit adder, need to chain together four 1-bit full adders. Each 
 
 To design a 1-bit full adder, the first step is to create a truth table that represents all possible combinations of the inputs (A, B, and CIN) and the corresponding outputs (Sum(S) and COUT).
 
-![image](https://github.com/user-attachments/assets/716a26b6-a449-42e0-9e2d-cdbaa4b291b9)
+
+
 
 Here’s the truth table for a 1-bit full adder:
 
@@ -90,7 +91,7 @@ or
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
-![Screenshot 2025-04-21 152705](https://github.com/user-attachments/assets/0f203408-13d4-41e1-a9e6-bc84b1582ff2)
+![Screenshot 2025-04-23 160613](https://github.com/user-attachments/assets/dc31fcce-a21d-4ce2-975e-1caef5feca17)
 
 
 ### Fig 5:cds.lib file Creation
@@ -103,7 +104,8 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![Screenshot 2025-04-21 155905](https://github.com/user-attachments/assets/9946d32d-cbff-4642-b168-d76f0943f9fc)
+![Screenshot 2025-04-21 172911](https://github.com/user-attachments/assets/5df403b8-d06a-401e-b5fd-277e42277f1f)
+
 
 
 ### Fig 6: Selection of Don’t include any libraries
@@ -116,13 +118,15 @@ or
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
-![Screenshot 2025-04-21 181936](https://github.com/user-attachments/assets/3fe49aab-a33d-4711-9450-1e648ca8922c)
+![Screenshot 2025-04-21 181936](https://github.com/user-attachments/assets/5830f1f4-7f34-4c4e-a8d0-40e5fcf25dbf)
+
 
 
 ### Fig 7: Nclaunch Window
 
 
-![Screenshot 2025-04-21 153355](https://github.com/user-attachments/assets/95fd64c1-6003-4782-ab14-db16490277d5)
+![Screenshot 2025-04-21 152849](https://github.com/user-attachments/assets/9a1de203-74c9-44a6-aba8-6713a71a3583)
+
 
 
 
@@ -175,6 +179,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
 ### Fig 9: Elaboration Launch Option
+![Screenshot 2025-04-21 153742](https://github.com/user-attachments/assets/e06d48fa-cddc-4556-a26c-e335eed4d720)
+
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
